@@ -1,12 +1,12 @@
 # Speech Anonymization & Depression Biomarkers
 
-## Project Description
+## 📖 Project Description 
 
 This project investigates the impact of speech anonymization algorithms on the preservation of depression-related acoustic biomarkers.
 
 Specifically, it examines whether acoustic features known to be associated with depression can still be detected after applying state-of-the-art voice anonymization techniques.
 
-## Dataset
+## 📊 Dataset
 
 This project uses the **DAIC-WOZ dataset** (Gratch et al., 2014), a sub-corpus of the Distress Analysis Interview Corpus (DAIC) containing 189 semi-structured clinical interviews.
 
@@ -14,7 +14,7 @@ Participants are labelled as depressed or non-depressed based on their score on 
 
 Three anonymized versions of the dataset were generated using the **B3, B4, and B5 baseline systems** from the VoicePrivacy 2024 Challenge (Tomashenko et al., 2024), each offering a different level of privacy protection.
 
-## Acoustic Features
+## 🎵 Acoustic Features
 
 Acoustic features were extracted using the **eGeMAPS feature set** (Eyben et al., 2015), consisting of 88 functional parameters covering:
 
@@ -26,7 +26,7 @@ Acoustic features were extracted using the **eGeMAPS feature set** (Eyben et al.
 
 Feature extraction was performed using **openSMILE** (Eyben et al., 2010).
 
-## Repository Structure
+## 📂 Repository Structure
 
 ```text
 speech-anonymization-biomarkers-depression/
@@ -38,17 +38,17 @@ speech-anonymization-biomarkers-depression/
     └── add_id_speaker_egemaps.py
 ```
 
-### Scripts
+### 👩‍💻 Description of the scripts
 
 * `extract_egemaps_features.py`: eGeMAPS feature extraction.
 * `add_id_speaker_egemaps.py`: Add Speaker ID for the .csv eGeMAPS feature extraction file.
 * `carbon_footprint_tracker.py`: Carbon footprint estimation using CodeCarbon.
 
-## Carbon Footprint
+## 🌱 Carbon Footprint
 
 The carbon footprint of each computational step was estimated using **CodeCarbon** (Courty et al., 2023).
 
-## References
+## 📚 References
 
 * Gratch et al. (2014). *The Distress Analysis Interview Corpus*. LREC.
 * Eyben et al. (2015). *The Geneva Minimalistic Acoustic Parameter Set*. IEEE Transactions on Affective Computing.
@@ -56,6 +56,6 @@ The carbon footprint of each computational step was estimated using **CodeCarbon
 * Tomashenko et al. (2024). *VoicePrivacy 2024 Challenge*. Interspeech.
 * Courty et al. (2023). *CodeCarbon*. Journal of Open Source Software.
 
-## Authors
+## 👥 Authors
 
 Master's students in Natural Language Processing (NLP) at the IDMC (Institut des Sciences du Digital, Managment & Cognition).
