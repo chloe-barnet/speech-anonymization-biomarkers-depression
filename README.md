@@ -54,7 +54,7 @@ The carbon footprint of each computational step was estimated using **CodeCarbon
 * Eyben et al. (2015). *The Geneva Minimalistic Acoustic Parameter Set*. IEEE Transactions on Affective Computing.
 * Eyben et al. (2010). *openSMILE*. ACM Multimedia.
 * Tomashenko et al. (2024). *VoicePrivacy 2024 Challenge*. Interspeech.
-* Courty et al. (2023). *CodeCarbon*. Journal of Open Source Software.
+* Lottick et al. (2019). Energy usage reports: Environmental awareness as part of algorithmic accountability. NeurIPS.
 
 ## 👥 Authors
 
